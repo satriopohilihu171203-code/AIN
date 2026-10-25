@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robbiyana Lasomba - Corporate Communication & Administrative Specialist</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        navy: {
+                            50: '#f0f6ff',
+                            100: '#e0edff',
+                            700: '#1d4ed8',
+                            800: '#1e40af',
+                            900: '#0f172a',
+                            950: '#0b0f19',
+                        },
+                        gold: {
+                            400: '#fbbf24',
+                            500: '#f59e0b',
+                            600: '#d97706',
+                            700: '#b45309',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .navy-gradient-bg {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-gold-500 selection:text-white">
+
+    <!-- Header / Navigation -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100 shadow-sm transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Brand Logo -->
+                <a href="#hero" class="flex items-center space-x-2 text-2xl font-bold tracking-tight text-navy-900">
+                    <span class="w-10 h-10 rounded-xl bg-navy-900 text-gold-500 flex items-center justify-center font-extrabold text-xl shadow-md border border-gold-500/30">RL</span>
+                    <span>Robbiyana<span class="text-gold-600">.</span></span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-8 text-sm font-medium">
+                    <a href="#about" class="text-slate-600 hover:text-navy-900 transition-colors">Tentang Saya</a>
+                    <a href="#experience" class="text-slate-600 hover:text-navy-900 transition-colors">Pengalaman</a>
+                    <a href="#skills" class="text-slate-600 hover:text-navy-900 transition-colors">Keahlian</a>
+                    <a href="#achievements" class="text-slate-600 hover:text-navy-900 transition-colors">Penghargaan</a>
+                    <a href="#contact" class="px-5 py-2.5 rounded-full bg-navy-900 text-white font-semibold hover:bg-navy-800 hover:shadow-lg transition-all duration-300 border border-gold-500/30">Hubungi Saya</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" type="button" class="text-slate-600 hover:text-navy-900 focus:outline-none p-2 rounded-lg hover:bg-slate-100" aria-label="Toggle Navigation">
+                        <i class="fa-solid fa-bars text-2xl" id="menu-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-100 px-4 pt-2 pb-6 space-y-3">
+            <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-navy-900 hover:bg-slate-50 transition-colors">Tentang Saya</a>
+            <a href="#experience" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-navy-900 hover:bg-slate-50 transition-colors">Pengalaman</a>
+            <a href="#skills" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-navy-900 hover:bg-slate-50 transition-colors">Keahlian</a>
+            <a href="#achievements" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-navy-900 hover:bg-slate-50 transition-colors">Penghargaan</a>
+            <a href="#contact" class="block text-center mt-4 px-5 py-3 rounded-xl bg-navy-900 text-white font-semibold hover:bg-navy-800 transition-all">Hubungi Saya</a>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <!-- Hero Section -->
+        <section id="hero" class="relative min-h-[90vh] flex items-center justify-center py-16 lg:py-24 overflow-hidden bg-gradient-to-b from-slate-100/80 via-white to-slate-50">
+            <!-- Decorative background elements -->
+            <div class="absolute -top-24 -left-24 w-96 h-96 bg-gold-400/10 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute top-1/2 -right-24 w-96 h-96 bg-navy-800/5 rounded-full blur-3xl pointer-events-none"></div>
+
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    
+                    <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-navy-50 border border-navy-100 text-navy-900 text-sm font-semibold shadow-sm">
+                            <span class="w-2.5 h-2.5 rounded-full bg-gold-500 animate-pulse"></span>
+                            Sarjana Pendidikan (S.Pd.) - Cumlaude (IPK 3,77)
+                        </div>
+
+                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-navy-900 tracking-tight leading-tight">
+                            Ahli Komunikasi Korporat, <span class="gold-gradient-text">Copywriting</span> & Layanan Pelanggan
+                        </h1>
+
+                        <p class="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+                            Membawa ketelitian bahasa, efisiensi administrasi, serta kemampuan komunikasi publik untuk mengoptimalkan impresi dan operasional bisnis Anda.
+                        </p>
+
+                        <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+                            <a href="#contact" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-navy-900 hover:bg-navy-800 text-white font-semibold shadow-lg hover:shadow-navy-900/20 transition-all duration-300 flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-paper-plane text-gold-400"></i>
+                                Hubungi Saya
+                            </a>
+                            <a href="#experience" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-white hover:bg-slate-100 text-navy-900 font-semibold border border-slate-200 shadow-sm transition-all duration-300 flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-briefcase text-slate-500"></i>
+                                Lihat Pengalaman
+                            </a>
+                        </div>
+
+                        <div class="pt-6 border-t border-slate-200/80 flex items-center justify-center lg:justify-start gap-6 text-slate-500">
+                            <a href="https://linkedin.com" target="_blank" class="hover:text-navy-900 transition-colors flex items-center gap-2 text-sm font-medium">
+                                <i class="fa-brands fa-linkedin text-xl text-navy-800"></i> Robbiyana Lasomba
+                            </a>
+                            <a href="mailto:ainlasomba02@gmail.com" class="hover:text-navy-900 transition-colors flex items-center gap-2 text-sm font-medium">
+                                <i class="fa-solid fa-envelope text-xl text-gold-600"></i> Email Saya
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Profile Card Overlay -->
+                    <div class="lg:col-span-5 flex justify-center">
+                        <div class="relative w-full max-w-md">
+                            <div class="absolute -inset-1 bg-gradient-to-r from-gold-500 to-navy-900 rounded-3xl blur opacity-30"></div>
+                            <div class="relative bg-white p-8 rounded-3xl shadow-xl border border-slate-100 text-center space-y-6">
+                                <div class="relative w-36 h-36 mx-auto rounded-full overflow-hidden border-4 border-gold-500 shadow-lg group">
+                                    <img src="Foto 4x6.jpeg" alt="Robbiyana Lasomba" class="w-full h-full object-cover object-top transition-transform duration-300 group-hover:scale-105" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'w-full h-full navy-gradient-bg text-white flex items-center justify-center text-4xl font-extrabold\'>RL</div>';">
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-navy-900">Robbiyana Lasomba</h3>
+                                    <p class="text-sm font-medium text-gold-600 mt-1">S.Pd. Pendidikan Bahasa & Sastra Indonesia</p>
+                                    <p class="text-xs text-slate-500 mt-1"><i class="fa-solid fa-location-dot text-red-500 mr-1"></i> Tilango, Kab. Gorontalo</p>
+                                </div>
+
+                                <div class="grid grid-cols-2 gap-4 py-4 border-y border-slate-100 text-left">
+                                    <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
+                                        <p class="text-xs text-slate-500 font-medium">IPK Kelulusan</p>
+                                        <p class="text-xl font-bold text-navy-900">3.77 <span class="text-xs text-gold-600 font-normal">Pujian</span></p>
+                                    </div>
+                                    <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
+                                        <p class="text-xs text-slate-500 font-medium">Akurasi Data/POS</p>
+                                        <p class="text-xl font-bold text-navy-900">100%</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex justify-center gap-3">
+                                    <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-navy-50 text-navy-900 border border-navy-100">
+                                        <i class="fa-solid fa-circle-check text-gold-500 mr-1.5"></i> Adaptif
+                                    </span>
+                                    <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-navy-50 text-navy-900 border border-navy-100">
+                                        <i class="fa-solid fa-circle-check text-gold-500 mr-1.5"></i> Teliti
+                                    </span>
+                                    <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-navy-50 text-navy-900 border border-navy-100">
+                                        <i class="fa-solid fa-circle-check text-gold-500 mr-1.5"></i> Komunikatif
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="py-20 bg-white border-t border-slate-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-xs font-bold uppercase tracking-widest text-gold-600 mb-2">Profil Profesional</h2>
+                    <p class="text-3xl sm:text-4xl font-extrabold text-navy-900">Tentang Saya</p>
+                    <div class="w-16 h-1 bg-gold-500 mx-auto mt-4 rounded-full"></div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    <div class="lg:col-span-6 space-y-6">
+                        <h3 class="text-2xl font-bold text-navy-900 leading-snug">
+                            Lulusan Sarjana Pendidikan dengan rekam jejak solid dalam Administrasi, PR, dan Pelayanan Pelanggan.
+                        </h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Saya merupakan lulusan Universitas Negeri Gorontalo dengan predikat <strong>Pujian (IPK 3,77)</strong>. Memiliki passion tinggi dalam tata kelola dokumen administrasi, komunikasi publik, serta penulisan korporat (*copywriting* / *press release*).
+                        </p>
+                        <p class="text-slate-600 leading-relaxed">
+                            Terbiasa mengoperasikan ekosistem perangkat lunak Microsoft Office & Outlook, riset data berbasis akurasi, serta sistem POS. Berjiwa adaptif, komunikatif, dan terbiasa bekerja dalam lingkungan kerja berkecepatan tinggi yang berorientasi pada kepuasan pemangku kepentingan (*stakeholders*).
+                        </p>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
+                            <div class="flex items-start space-x-3 p-4 rounded-2xl bg-slate-50 border border-slate-100">
+                                <div class="w-10 h-10 rounded-xl bg-navy-900 text-gold-500 flex items-center justify-center shrink-0 font-bold">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-navy-900 text-sm">Pendidikan Tinggi</h4>
+                                    <p class="text-xs text-slate-500 mt-1">S1 Pend. Bahasa & Sastra Indonesia - Univ. Negeri Gorontalo</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-3 p-4 rounded-2xl bg-slate-50 border border-slate-100">
+                                <div class="w-10 h-10 rounded-xl bg-navy-900 text-gold-500 flex items-center justify-center shrink-0 font-bold">
+                                    <i class="fa-solid fa-language"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-navy-900 text-sm">Kemampuan Bahasa</h4>
+                                    <p class="text-xs text-slate-500 mt-1">Bahasa Indonesia (Fasih) <br>Bahasa Inggris (Kerja)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 shadow-sm space-y-3 hover:border-gold-500/50 transition-colors">
+                            <div class="w-12 h-12 rounded-xl bg-gold-500/10 text-gold-600 flex items-center justify-center text-xl font-bold">
+                                <i class="fa-solid fa-pen-nib"></i>
+                            </div>
+                            <h4 class="font-bold text-navy-900">Penulisan Korporat</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Penyusunan press release, artikel berita resmi, serta copywriting dengan kaidah PUEBI/EYD V yang presisi.
+                            </p>
+                        </div>
+
+                        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 shadow-sm space-y-3 hover:border-gold-500/50 transition-colors">
+                            <div class="w-12 h-12 rounded-xl bg-navy-900/10 text-navy-900 flex items-center justify-center text-xl font-bold">
+                                <i class="fa-solid fa-folder-open"></i>
+                            </div>
+                            <h4 class="font-bold text-navy-900">Tata Kelola Administrasi</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Pengelolaan arsip dokumen, instruksional program, verifikasi data, hingga integrasi data operasional.
+                            </p>
+                        </div>
+
+                        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 shadow-sm space-y-3 hover:border-gold-500/50 transition-colors">
+                            <div class="w-12 h-12 rounded-xl bg-navy-900/10 text-navy-900 flex items-center justify-center text-xl font-bold">
+                                <i class="fa-solid fa-headset"></i>
+                            </div>
+                            <h4 class="font-bold text-navy-900">Customer Experience</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Konsultasi produk profesional, handling kepuasan pelanggan, serta efisiensi transaksi via Point of Sale (POS).
+                            </p>
+                        </div>
+
+                        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 shadow-sm space-y-3 hover:border-gold-500/50 transition-colors">
+                            <div class="w-12 h-12 rounded-xl bg-gold-500/10 text-gold-600 flex items-center justify-center text-xl font-bold">
+                                <i class="fa-solid fa-users"></i>
+                            </div>
+                            <h4 class="font-bold text-navy-900">Stakeholder Relations</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Kolaborasi efektif dengan instansi pemerintah, institusi pendidikan, dan pemangku kepentingan eksternal.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Projects Section -->
+        <section id="experience" class="py-20 bg-slate-50 border-t border-slate-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-xs font-bold uppercase tracking-widest text-gold-600 mb-2">Rekam Jejak Kerja</h2>
+                    <p class="text-3xl sm:text-4xl font-extrabold text-navy-900">Pengalaman Profesional</p>
+                    <div class="w-16 h-1 bg-gold-500 mx-auto mt-4 rounded-full"></div>
+                </div>
+
+                <!-- Grid Experience Cards -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    
+                    <!-- Card 1 -->
+                    <div class="bg-white rounded-3xl p-8 shadow-sm border border-slate-200/80 hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between">
+                                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-gold-50 text-gold-700 border border-gold-200">
+                                    Jun 2025 - Agust 2026
+                                </span>
+                                <i class="fa-solid fa-store text-2xl text-slate-300 group-hover:text-gold-500 transition-colors"></i>
+                            </div>
+                            
+                            <div>
+                                <h3 class="text-xl font-bold text-navy-900 group-hover:text-gold-600 transition-colors">Store Operations & Customer Experience Specialist</h3>
+                                <p class="text-sm font-semibold text-slate-500 mt-1">Toko Nurfadilah</p>
+                            </div>
+
+                            <ul class="space-y-2.5 text-xs text-slate-600 border-t border-slate-100 pt-4">
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-check text-gold-500 mt-0.5 shrink-0"></i>
+                                    <span>Mengoperasikan sistem POS/kasir harian dengan tingkat akurasi transaksi mencapai <strong>100%</strong>.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-check text-gold-500 mt-0.5 shrink-0"></i>
+                                    <span>Mengelola konsultasi produk & melayani konsumen secara profesional demi menjaga tingkat kepuasan pelanggan.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-check text-gold-500 mt-0.5 shrink-0"></i>
+                                    <span>Pencatatan inventaris barang berkala & menjaga keteraturan operasional toko.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mt-6 pt-4 border-t border-slate-100 flex items-center gap-2 text-xs font-semibold text-navy-900">
+                            <span class="w-2 h-2 rounded-full bg-emerald-500"></span> Operations & Customer Care
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-white rounded-3xl p-8 shadow-sm border border-slate-200/80 hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between">
+                                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-navy-50 text-navy-800 border border-navy-200">
+                                    Agust 2024 - Jan 2025
+                                </span>
+                                <i class="fa-solid fa-chalkboard-user text-2xl text-slate-300 group-hover:text-navy-800 transition-colors"></i>
+                            </div>
+                            
+                            <div>
+                                <h3 class="text-xl font-bold text-navy-900 group-hover:text-navy-800 transition-colors">Program Officer / Educator Specialist (MBKM)</h3>
+                                <p class="text-sm font-semibold text-slate-500 mt-1">Kampus Mengajar - SMP M. Kwandang</p>
+                            </div>
+
+                            <ul class="space-y-2.5 text-xs text-slate-600 border-t border-slate-100 pt-4">
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-check text-gold-500 mt-0.5 shrink-0"></i>
+                                    <span>Merancang dan mengeksekusi program penguatan literasi & numerasi bagi siswa sekolah.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-check text-gold-500 mt-0.5 shrink-0"></i>
+                                    <span>Mengelola kegiatan belajar mengajar, administrasi instruksional, serta evaluasi performa akademik.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-check text-gold-500 mt-0.5 shrink-0"></i>
+                                    <span>Berkolaborasi dengan stakeholders sekolah dalam menghadirkan metode interaktif.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mt-6 pt-4 border-t border-slate-100 flex items-center gap-2 text-xs font-semibold text-navy-900">
+                            <span class="w-2 h-2 rounded-full bg-blue-500"></span> Education & Program Management
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-white rounded-3xl p-8 shadow-sm border border-slate-200/80 hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between">
+                                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-gold-50 text-gold-700 border border-gold-200">
+                                    Feb 2024 - Jul 2024
+                                </span>
+                                <i class="fa-solid fa-newspaper text-2xl text-slate-300 group-hover:text-gold-500 transition-colors"></i>
+                            </div>
+                            
+                            <div>
+                                <h3 class="text-xl font-bold text-navy-900 group-hover:text-gold-600 transition-colors">Corporate Communication & PR Intern</h3>
+                                <p class="text-sm font-semibold text-slate-500 mt-1">Diskominfotik Provinsi Gorontalo</p>
+                            </div>
+
+                            <ul class="space-y-2.5 text-xs text-slate-600 border-t border-slate-100 pt-4">
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-check text-gold-500 mt-0.5 shrink-0"></i>
+                                    <span>Menyusun press release & berita resmi portal pemerintah (gorontaloprov.go.id) dengan akurasi 100%.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-check text-gold-500 mt-0.5 shrink-0"></i>
+                                    <span>Peliputan eksklusif rapat kerja & kunjungan pimpinan daerah dengan batas tenggat &lt; 6 jam.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <i class="fa-solid fa-check text-gold-500 mt-0.5 shrink-0"></i>
+                                    <span>Koordinasi lintas instansi untuk verifikasi data & pengolahan informasi publik resmi.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mt-6 pt-4 border-t border-slate-100 flex items-center gap-2 text-xs font-semibold text-navy-900">
+                            <span class="w-2 h-2 rounded-full bg-gold-500"></span> PR & Public Relations
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-20 bg-white border-t border-slate-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-xs font-bold uppercase tracking-widest text-gold-600 mb-2">Kompetensi Utama</h2>
+                    <p class="text-3xl sm:text-4xl font-extrabold text-navy-900">Keahlian & Perangkat</p>
+                    <div class="w-16 h-1 bg-gold-500 mx-auto mt-4 rounded-full"></div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    <!-- Hard Skills -->
+                    <div class="bg-slate-50 rounded-3xl p-8 border border-slate-100">
+                        <div class="flex items-center gap-3 mb-6">
+                            <div class="w-10 h-10 rounded-xl bg-navy-900 text-gold-500 flex items-center justify-center font-bold">
+                                <i class="fa-solid fa-gears"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-navy-900">Keterampilan Teknis</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3.5 py-2 rounded-xl bg-white text-navy-900 text-xs font-semibold shadow-sm border border-slate-200/60">Corporate Communication</span>
+                            <span class="px-3.5 py-2 rounded-xl bg-white text-navy-900 text-xs font-semibold shadow-sm border border-slate-200/60">Copywriting & Content Writing</span>
+                            <span class="px-3.5 py-2 rounded-xl bg-white text-navy-900 text-xs font-semibold shadow-sm border border-slate-200/60">Pemeriksaan Naskah (PUEBI/EYD V)</span>
+                            <span class="px-3.5 py-2 rounded-xl bg-white text-navy-900 text-xs font-semibold shadow-sm border border-slate-200/60">Verifikasi Data & Fakta</span>
+                            <span class="px-3.5 py-2 rounded-xl bg-white text-navy-900 text-xs font-semibold shadow-sm border border-slate-200/60">Tata Kelola Administrasi</span>
+                            <span class="px-3.5 py-2 rounded-xl bg-white text-navy-900 text-xs font-semibold shadow-sm border border-slate-200/60">Manajemen Kas & System POS</span>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="bg-slate-50 rounded-3xl p-8 border border-slate-100">
+                        <div class="flex items-center gap-3 mb-6">
+                            <div class="w-10 h-10 rounded-xl bg-navy-900 text-gold-500 flex items-center justify-center font-bold">
+                                <i class="fa-solid fa-user-group"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-navy-900">Interpersonal & Soft Skills</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3.5 py-2 rounded-xl bg-white text-navy-900 text-xs font-semibold shadow-sm border border-slate-200/60">Public Speaking</span>
+                            <span class="px-3.5 py-2 rounded-xl bg-white text-navy-900 text-xs font-semibold shadow-sm border border-slate-200/60">Stakeholder Relations</span>
+                            <span class="px-3.5 py-2 rounded-xl bg-white text-navy-900 text-xs font-semibold shadow-sm border border-slate-200/60">Manajemen Waktu</span>
+                            <span class="px-3.5 py-2 rounded-xl bg-white text-navy-900 text-xs font-semibold shadow-sm border border-slate-200/60">Kolaborasi Tim</span>
+                            <span class="px-3.5 py-2 rounded-xl bg-white text-navy-900 text-xs font-semibold shadow-sm border border-slate-200/60">Penyelesaian Masalah</span>
+                            <span class="px-3.5 py-2 rounded-xl bg-white text-navy-900 text-xs font-semibold shadow-sm border border-slate-200/60">Adaptabilitas Tinggi</span>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Software -->
+                    <div class="bg-slate-50 rounded-3xl p-8 border border-slate-100">
+                        <div class="flex items-center gap-3 mb-6">
+                            <div class="w-10 h-10 rounded-xl bg-navy-900 text-gold-500 flex items-center justify-center font-bold">
+                                <i class="fa-solid fa-laptop-code"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-navy-900">Software & Perangkat</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3.5 py-2 rounded-xl bg-white text-navy-900 text-xs font-semibold shadow-sm border border-slate-200/60"><i class="fa-regular fa-file-word text-blue-600 mr-1.5"></i> Microsoft Word</span>
+                            <span class="px-3.5 py-2 rounded-xl bg-white text-navy-900 text-xs font-semibold shadow-sm border border-slate-200/60"><i class="fa-regular fa-file-excel text-emerald-600 mr-1.5"></i> Microsoft Excel</span>
+                            <span class="px-3.5 py-2 rounded-xl bg-white text-navy-900 text-xs font-semibold shadow-sm border border-slate-200/60"><i class="fa-regular fa-file-powerpoint text-orange-600 mr-1.5"></i> Microsoft PowerPoint</span>
+                            <span class="px-3.5 py-2 rounded-xl bg-white text-navy-900 text-xs font-semibold shadow-sm border border-slate-200/60"><i class="fa-solid fa-envelope-open-text text-sky-600 mr-1.5"></i> Microsoft Outlook</span>
+                            <span class="px-3.5 py-2 rounded-xl bg-white text-navy-900 text-xs font-semibold shadow-sm border border-slate-200/60"><i class="fa-solid fa-cash-register text-gold-600 mr-1.5"></i> POS Systems</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements & Certification Section -->
+        <section id="achievements" class="py-20 bg-slate-50 border-t border-slate-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-xs font-bold uppercase tracking-widest text-gold-600 mb-2">Apresiasi & Lisensi</h2>
+                    <p class="text-3xl sm:text-4xl font-extrabold text-navy-900">Sertifikat & Penghargaan</p>
+                    <div class="w-16 h-1 bg-gold-500 mx-auto mt-4 rounded-full"></div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <!-- Award Card -->
+                    <div class="bg-white p-8 rounded-3xl border border-slate-200/80 shadow-sm flex items-start space-x-5 hover:border-gold-500 transition-colors">
+                        <div class="w-14 h-14 rounded-2xl bg-gold-500/10 text-gold-600 flex items-center justify-center shrink-0 text-2xl font-bold">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <div class="space-y-1">
+                            <span class="text-xs font-bold text-gold-600 tracking-wider uppercase">Penghargaan Tingkat Fakultas</span>
+                            <h3 class="text-lg font-bold text-navy-900">Publikasi Artikel Terbaik</h3>
+                            <p class="text-xs text-slate-500">Fakultas Bahasa dan Sastra Indonesia, Universitas Negeri Gorontalo</p>
+                            <p class="text-xs text-slate-600 pt-2 leading-relaxed">Dianugerahi penghargaan atas standar kualitas tinggi dan kedalaman ketelitian riset penulisan artikel karya ilmiah.</p>
+                        </div>
+                    </div>
+
+                    <!-- Certificate Card -->
+                    <div class="bg-white p-8 rounded-3xl border border-slate-200/80 shadow-sm flex items-start space-x-5 hover:border-navy-800 transition-colors">
+                        <div class="w-14 h-14 rounded-2xl bg-navy-900/10 text-navy-900 flex items-center justify-center shrink-0 text-2xl font-bold">
+                            <i class="fa-solid fa-certificate"></i>
+                        </div>
+                        <div class="space-y-1">
+                            <span class="text-xs font-bold text-navy-800 tracking-wider uppercase">Sertifikasi Resmi MBKM</span>
+                            <h3 class="text-lg font-bold text-navy-900">Sertifikat Program Magang MBKM</h3>
+                            <p class="text-xs text-slate-500">Dinas Komunikasi, Informatika, dan Statistik Prov. Gorontalo</p>
+                            <p class="text-xs text-slate-600 pt-2 leading-relaxed">Pengakuan resmi kelulusan program magang profesional dalam penulisan berita pemerintah & kehumasan publik.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-white border-t border-slate-100 relative">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                    
+                    <div class="lg:col-span-5 space-y-8">
+                        <div>
+                            <h2 class="text-xs font-bold uppercase tracking-widest text-gold-600 mb-2">Kontak Profesional</h2>
+                            <p class="text-3xl sm:text-4xl font-extrabold text-navy-900">Mari Bekerja Sama</p>
+                            <div class="w-16 h-1 bg-gold-500 mt-4 rounded-full"></div>
+                        </div>
+
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Saya terbuka untuk peluang karir full-time, kontrak, maupun kolaborasi profesional di bidang Komunikasi Korporat, Administrasi, Layanan Pelanggan, dan Edukasi. Silakan hubungi saya melalui form atau kontak langsung di bawah ini.
+                        </p>
+
+                        <div class="space-y-4">
+                            <div class="flex items-center space-x-4 p-4 rounded-2xl bg-slate-50 border border-slate-100">
+                                <div class="w-12 h-12 rounded-xl bg-navy-900 text-gold-500 flex items-center justify-center shrink-0 text-xl">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <p class="text-xs text-slate-500 font-medium">Alamat Email</p>
+                                    <a href="mailto:ainlasomba02@gmail.com" class="text-sm font-bold text-navy-900 hover:text-gold-600 transition-colors">ainlasomba02@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center space-x-4 p-4 rounded-2xl bg-slate-50 border border-slate-100">
+                                <div class="w-12 h-12 rounded-xl bg-navy-900 text-gold-500 flex items-center justify-center shrink-0 text-xl">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div>
+                                    <p class="text-xs text-slate-500 font-medium">Nomor Telepon / WhatsApp</p>
+                                    <a href="tel:089502471917" class="text-sm font-bold text-navy-900 hover:text-gold-600 transition-colors">089502471917</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center space-x-4 p-4 rounded-2xl bg-slate-50 border border-slate-100">
+                                <div class="w-12 h-12 rounded-xl bg-navy-900 text-gold-500 flex items-center justify-center shrink-0 text-xl">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div>
+                                    <p class="text-xs text-slate-500 font-medium">Lokasi Dominan</p>
+                                    <p class="text-sm font-bold text-navy-900">Tilango, Kabupaten Gorontalo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="lg:col-span-7 bg-slate-50 p-8 sm:p-10 rounded-3xl border border-slate-200/80 shadow-sm">
+                        <form id="contact-form" class="space-y-6">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                                <div>
+                                    <label for="name" class="block text-xs font-bold text-navy-900 mb-2 uppercase">Nama Lengkap</label>
+                                    <input type="text" id="name" required placeholder="Nama Anda" class="w-full px-4 py-3.5 rounded-xl border border-slate-200 bg-white text-navy-900 text-sm focus:outline-none focus:border-navy-900 focus:ring-1 focus:ring-navy-900 transition-all">
+                                </div>
+                                <div>
+                                    <label for="email" class="block text-xs font-bold text-navy-900 mb-2 uppercase">Alamat Email</label>
+                                    <input type="email" id="email" required placeholder="email@contoh.com" class="w-full px-4 py-3.5 rounded-xl border border-slate-200 bg-white text-navy-900 text-sm focus:outline-none focus:border-navy-900 focus:ring-1 focus:ring-navy-900 transition-all">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="subject" class="block text-xs font-bold text-navy-900 mb-2 uppercase">Subjek Pesan</label>
+                                <input type="text" id="subject" required placeholder="Contoh: Penawaran Kerja / Diskusi Proyek" class="w-full px-4 py-3.5 rounded-xl border border-slate-200 bg-white text-navy-900 text-sm focus:outline-none focus:border-navy-900 focus:ring-1 focus:ring-navy-900 transition-all">
+                            </div>
+
+                            <div>
+                                <label for="message" class="block text-xs font-bold text-navy-900 mb-2 uppercase">Pesan Anda</label>
+                                <textarea id="message" rows="5" required placeholder="Tuliskan detail pesan Anda di sini..." class="w-full px-4 py-3.5 rounded-xl border border-slate-200 bg-white text-navy-900 text-sm focus:outline-none focus:border-navy-900 focus:ring-1 focus:ring-navy-900 transition-all resize-none"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full py-4 rounded-xl bg-navy-900 hover:bg-navy-800 text-white font-semibold shadow-lg hover:shadow-navy-900/20 transition-all duration-300 flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-paper-plane text-gold-400"></i>
+                                Kirim Pesan Sekarang
+                            </button>
+                        </form>
+
+                        <!-- Custom Alert Message Box (Replacing default JavaScript alert) -->
+                        <div id="form-alert" class="hidden mt-4 p-4 rounded-xl text-xs font-medium border"></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-navy-950 text-white py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <div class="flex items-center space-x-2 text-xl font-bold">
+                    <span class="w-8 h-8 rounded-lg bg-gold-500 text-navy-950 flex items-center justify-center font-extrabold text-sm">RL</span>
+                    <span>Robbiyana Lasomba<span class="text-gold-500">.</span></span>
+                </div>
+
+                <p class="text-xs text-slate-400 text-center">
+                    &copy; <span id="current-year"></span> Robbiyana Lasomba, S.Pd. All rights reserved. Designed with precision & elegance.
+                </p>
+
+                <div class="flex space-x-4">
+                    <a href="https://linkedin.com" target="_blank" class="w-9 h-9 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-300 hover:text-gold-500 hover:border-gold-500 transition-all" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in text-sm"></i>
+                    </a>
+                    <a href="mailto:ainlasomba02@gmail.com" class="w-9 h-9 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-300 hover:text-gold-500 hover:border-gold-500 transition-all" aria-label="Email">
+                        <i class="fa-solid fa-envelope text-sm"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive JavaScript Logic -->
+    <script>
+        // Set dynamic current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Mobile Menu Toggle logic
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIcon = document.getElementById('menu-icon');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            if (mobileMenu.classList.contains('hidden')) {
+                menuIcon.classList.remove('fa-xmark');
+                menuIcon.classList.add('fa-bars');
+            } else {
+                menuIcon.classList.remove('fa-bars');
+                menuIcon.classList.add('fa-xmark');
+            }
+        });
+
+        // Close mobile navigation when a menu link is clicked
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                menuIcon.classList.remove('fa-xmark');
+                menuIcon.classList.add('fa-bars');
+            });
+        });
+
+        // Custom Contact Form Submission Handling (Without native alert)
+        const contactForm = document.getElementById('contact-form');
+        const formAlert = document.getElementById('form-alert');
+
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Show custom success message
+            formAlert.classList.remove('hidden', 'bg-red-50', 'text-red-700', 'border-red-200');
+            formAlert.classList.add('bg-emerald-50', 'text-emerald-800', 'border-emerald-200');
+            formAlert.innerHTML = '<i class="fa-solid fa-circle-check text-emerald-600 mr-2"></i> Terima kasih! Pesan Anda telah berhasil dikirim. Saya akan segera menghubungi Anda.';
+
+            // Reset Form Fields
+            contactForm.reset();
+
+            // Auto-hide alert after 5 seconds
+            setTimeout(() => {
+                formAlert.classList.add('hidden');
+            }, 5000);
+        });
+    </script>
+</body>
+</html>
